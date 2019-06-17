@@ -1,0 +1,28 @@
+<div class="signup-form">
+  <form >
+    <h2>Register</h2>
+    <p class="hint-text">Create your account....</p>
+    <div class="form-group">
+      <input type="uname" class="form-control" placeholder="Enter name.." (keyup)="onunameKeyUp($event)" required="required">
+    </div>
+    <div class="form-group">
+      <input type="email" class="form-control" (keyup)="onemailKeyUp($event)" placeholder="Enter email.." required="required">
+    </div>
+    <div class="form-group">
+      <textarea type="add" class="form-control" rows=3 (keyup)="onaddKeyUp($event)"  placeholder="Enter address.." required="required"></textarea>
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" (keyup)="onpassKeyUp($event)" placeholder="Enter password.." required="required">
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control" (keyup)="oncpassKeyUp($event)" placeholder="confirmed password.." required="required">
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-success btn-lg btn-block" (click)="validate()">Register Now</button>
+    </div>
+
+  </form>
+  <div class="text-center">Already have an account?
+    <a routerLink="/login">LOG IN</a>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+{
+  "name": "user-product",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "hapi": "^16.6.3",
+    "hapi-cors-headers": "^1.0.3",
+    "hapi-swagger": "^9.1.1",
+    "joi": "^13.4.0"
+  }
+}
